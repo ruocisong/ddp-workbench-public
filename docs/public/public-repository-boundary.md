@@ -1,21 +1,32 @@
 # Antica Fiamma Public Repository Boundary
 
-This file records the intended scope of the public-facing **Antica Fiamma** repository.
+This file records the intended scope of the public-facing **Antica Fiamma (AF)** repository.
 
-The public project name is **Antica Fiamma**.
+The public project name is **Antica Fiamma**. The abbreviation **AF** may be used after first mention.
 
 ## Public Purpose
 
 The public repository provides:
 
-- a clear project identity
-- live site links for Antica Fiamma
-- a readable map of the public interface
-- enough source structure to understand the shell
-- enough build and packaging logic to understand the public shell format, without exposing the private production repository
-- a clear boundary around data, rights, generated payloads, and internal research work
+- a clear project identity;
+- live site links for Antica Fiamma;
+- a readable map of the public scholarly interface;
+- enough source structure to understand the public shell and selected methods;
+- enough build and packaging logic to inspect the public artifact without exposing the private production repository;
+- a clear boundary around data, rights, generated payloads, and internal research work; and
+- stable citation, licence, provenance, and rights documentation.
 
 It keeps the public project entrance separate from the internal studio floor.
+
+## Not A Mirror
+
+The public repository is **not** a mirror of the private production and research repository.
+
+The private repository may contain active development, internal research materials, source-sensitive inputs, generated runtime assets, review traces, release coordination, operational state, private correspondence, publication drafts, and other material that does not belong in a public scholarly object.
+
+The public and private repositories are therefore not expected to share identical file trees, Git histories, commit sequences, or release cadence. Public omission does not imply that a feature is absent from the live AF environment.
+
+A public update should copy or reconstruct only material that has been positively selected for public release. Changing the visibility of the private repository, publishing its full Git history, or treating the private repository as a public-release artifact is outside this repository's publication model.
 
 ## Keep
 
@@ -39,20 +50,22 @@ It keeps the public project entrance separate from the internal studio floor.
 
 ## Exclude Or Keep Internal
 
-- `demo/frontend/data/`
-- `demo/frontend/reports/`
-- `demo/frontend/data_snapshots/`
-- `demo/frontend/data_legacy_pre_page_state_v2/`
-- `deployment_output/pages_shell_build/`
-- local visual experiments not linked from the public site
-- authority review buckets and pressure-response documents
-- semantic-thread experiments and overnight outputs
-- summary-layer experiments
-- cross-canto publication workspaces
-- article and conference submission drafts or reviewer-only artifact packets
-- `ops/prompts/`, thread handoffs, and internal operating notes
-- uploader utilities and local release wrappers
-- local screenshots, scratch files, and `.DS_Store`
+- complete DDP-derived commentary payloads or reconstructable bulk exports;
+- `demo/frontend/data/` when it contains the full generated runtime;
+- `demo/frontend/reports/`;
+- `demo/frontend/data_snapshots/`;
+- `demo/frontend/data_legacy_pre_page_state_v2/`;
+- `deployment_output/pages_shell_build/`;
+- private or source-sensitive local inputs;
+- local visual experiments not linked from the public site;
+- authority review buckets and pressure-response documents;
+- semantic-thread experiments and overnight outputs;
+- summary-layer experiments;
+- cross-canto publication workspaces;
+- article and conference submission drafts or reviewer-only artifact packets;
+- `ops/prompts/`, thread handoffs, internal operating notes, and release-coordination records;
+- uploader state, credentials, secrets, environment files, and private deployment wrappers;
+- local screenshots, scratch files, caches, and `.DS_Store`.
 
 ## Public README Should Answer
 
@@ -64,6 +77,7 @@ It keeps the public project entrance separate from the internal studio floor.
 - Which interface layers are present
 - What is included in this public repository
 - What data is intentionally excluded
+- Why the public repository is not a mirror of the private production repository
 - How to preview the shell locally
 - How the Cloudflare Pages package is prepared, while production deployment remains private
 - Which module README files explain the main repository areas
@@ -105,9 +119,9 @@ CITATION.cff
 
 ## Current Position
 
-The public repository is maintained as a stable project entrance. It shows method and structure while keeping working notes, experiments, and generated payloads in the appropriate internal or runtime layers.
+The public repository is maintained as a stable project entrance and inspectable scholarly artifact. It exposes method and structure while keeping working notes, experiments, private history, and source-sensitive generated payloads in the appropriate internal or runtime layers.
 
-The strongest public path is now:
+The strongest public path is:
 
 - [Antica Fiamma](https://anticafiamma.it)
 - [About](https://anticafiamma.it/about.html)
@@ -115,3 +129,5 @@ The strongest public path is now:
 - [Interface Tour](https://anticafiamma.it/reading-route.html)
 - [Authority Room](https://anticafiamma.it/authority.html)
 - [Fiamma Research Room](https://anticafiamma.it/research/fiamma.html)
+
+See [current-status.md](current-status.md) for the living public-repository status after the archived 1.0.0 release.
