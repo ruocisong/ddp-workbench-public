@@ -41,3 +41,15 @@ Project-owned software is released under MIT. Project documentation by Ruoci Son
 - records version 1.0.0 consistently across citation, repository, and Zenodo metadata;
 - documents the live-site/archive distinction and mixed rights boundary;
 - updates rights-safe public-build counts and sample labels.
+
+## Living Public Repository After 1.0.0
+
+The GitHub repository continues to evolve after the fixed 1.0.0 Zenodo archive. On 23 August 2026, the public documentation was refreshed to make the current repository model explicit:
+
+- `antica-fiamma-public` is the public, citable project entrance, not a mirror of the private production and research repository;
+- the private repository and its Git history remain private and are not themselves a publication artifact;
+- public updates are positively selected for rights, scholarly relevance, and public usefulness rather than copied wholesale from internal development;
+- project-owned code, public documentation, source-sensitive materials, and DDP-derived commentary retain separate rights and provenance boundaries; and
+- later GitHub updates do not silently revise the archived 1.0.0 object.
+
+See [`docs/public/current-status.md`](docs/public/current-status.md) for the current living-repository status.
