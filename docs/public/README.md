@@ -1,11 +1,12 @@
 # Public Documentation
 
-This directory contains public-facing documentation for **Antica Fiamma**.
+This directory contains public-facing documentation for **Antica Fiamma (AF)**.
 
-It is written for readers who want more context than the repository root README can hold, without requiring access to internal planning notes or generated data.
+It is written for readers who want more context than the repository root README can hold, without requiring access to internal planning notes, private Git history, source-sensitive inputs, or generated runtime data.
 
 ## Documents
 
+- [`current-status.md`](./current-status.md): current relationship between the living public repository, the private production/research workspace, and the archived 1.0.0 release.
 - [`for-reviewers.md`](./for-reviewers.md): shortest reading path for a preliminary external review.
 - [`scheda-progetto.md`](./scheda-progetto.md): Italian one-page project sheet for a first conversation.
 - [`project-dossier.md`](./project-dossier.md): compact project dossier for preliminary DH discussion.
@@ -13,10 +14,10 @@ It is written for readers who want more context than the repository root README 
 - [`interface-layers.md`](./interface-layers.md): what the main public interface layers do.
 - [`data-boundary.md`](./data-boundary.md): what the public repository includes and excludes.
 - [`rights-and-permissions.md`](./rights-and-permissions.md): current source, permissions, and data-governance posture.
-- [`technical-overview.md`](./technical-overview.md): technological and implementative choices.
+- [`technical-overview.md`](./technical-overview.md): technological and implementation choices.
 - [`sustainability-and-maintenance.md`](./sustainability-and-maintenance.md): current maintenance model, hosting boundary, and sustainability arrangements.
 - [`demo-paths.md`](./demo-paths.md): short routes for a first demonstration.
-- [`public-repository-boundary.md`](./public-repository-boundary.md): checklist for keeping the public repository clean.
+- [`public-repository-boundary.md`](./public-repository-boundary.md): publication boundary for keeping the public repository distinct from the private production workspace.
 
 ## Live Pages
 
